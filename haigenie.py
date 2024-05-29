@@ -18,6 +18,6 @@ if response.status_code == 200:
     data = response.json()
     print(data)
 else:
-    print('Failed to retrieve data:::::', response.status_code)
+    print('Failed to retrieve data:', response.status_code)
 
 
